@@ -16,13 +16,13 @@
     .container {
       max-width: 800px;
       margin: 40px auto;
-      padding: 30px; /* Tăng padding chút cho thoáng */
+      padding: 30px;
       background: #fff;
       box-shadow: 0 4px 15px rgba(0,0,0,0.05);
       border-radius: 8px;
     }
     
-    /* --- HEADER SECTION (Đã chỉnh sửa) --- */
+    /* --- HEADER SECTION --- */
     header {
       display: flex;
       justify-content: space-between;
@@ -36,16 +36,16 @@
     .header-left {
       display: flex;
       align-items: center;
-      gap: 20px; /* Khoảng cách giữa ảnh và tên */
+      gap: 20px;
     }
 
     /* Style cho ảnh đại diện */
     .avatar {
       width: 130px;
       height: 130px;
-      object-fit: cover; /* Giúp ảnh không bị méo nếu file gốc hình chữ nhật */
-      border-radius: 50%; /* Bo tròn thành hình tròn */
-      border: 3px solid #8e44ad; /* Viền tím trùng màu chủ đạo */
+      object-fit: cover; /* Cắt ảnh vừa khung tròn */
+      border-radius: 50%; /* Bo tròn */
+      border: 3px solid #8e44ad; /* Viền tím */
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
 
@@ -94,10 +94,9 @@
     .about-me {
       font-style: italic;
       color: #555;
-      background: #f8f4fa; /* Màu nền tím rất nhạt */
+      background: #f8f4fa;
       padding: 20px;
       border-radius: 8px;
-      border-left: none; /* Xóa style cũ nếu có */
     }
 
     /* Education & Experience Items */
@@ -105,7 +104,7 @@
       margin-bottom: 25px;
       position: relative;
     }
-    /* Đường nối mờ mờ bên trái cho đẹp (Optional) */
+    /* Đường nối mờ trang trí */
     .item:not(:last-child)::after {
         content: '';
         position: absolute;
@@ -129,7 +128,7 @@
       margin-bottom: 4px;
     }
     .date {
-      color: #8e44ad; /* Đổi màu ngày tháng sang tím */
+      color: #8e44ad;
       font-size: 0.95em;
       min-width: 130px;
       text-align: right;
@@ -173,7 +172,7 @@
         text-align: center;
       }
       .header-left {
-        flex-direction: column; /* Trên mobile: Ảnh ở trên, tên ở dưới */
+        flex-direction: column;
         margin-bottom: 15px;
       }
       .contact-info {
@@ -203,7 +202,7 @@
     
     <header>
       <div class="header-left">
-        <img src="tải xuống (1).jpg" alt="Avatar Phan Hoàng" class="avatar">
+        <img src="z7317423815488_70dcfbd6a5a2f3b78ff1698c37ff4343.jpg" alt="Avatar Phan Hoàng" class="avatar">
         
         <div class="header-info">
           <h1>PHAN HOÀNG</h1>
@@ -295,3 +294,14 @@
           <h3>Ngoại ngữ (Language)</h3>
           <ul>
             <li><strong>Tiếng Anh:</strong> B2</li>
+            <li><strong>Tiếng Trung:</strong> HSK2</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
